@@ -1,0 +1,17 @@
+Quality Control & Quality Assurance
+Quality Assurance:
+Quality Control:
+A set of activities designed to evaluate a developed work product.
+Differences:
+A set of activities designed to ensure that the development and/or
+maintenance process is adequate to ensure a system will meet its
+objectives.
+QA focus on the process elements of a project. QC activities focus on
+finding defects in specific deliverables.
+QA makes sure you are doing the right things, the right way, QC makes
+sure the results of what you've done are what you expected.
+QA is process oriented and QC is product oriented.
+Two kind of QC: verification and validation
+June 5, 2013
+Software Testing Techniques
+Verification and Validation

@@ -1,0 +1,45 @@
+Exploratory method
+Treat the program as a black box, ignoring its internal structure.
+White box method
+Explore the software while designing and executing tests
+simultaneously.
+Black box method
+SE-307 Software Testing Techniques
+Logical analysis of code element (e.g. basic block, branch, path.
+Model-based method
+Based on a formal model of the software.
+June 5, 2013
+20 / 26Objectives(PMOD)
+Objective
+SE-307 Software Testing Techniques
+Purpose
+Functional testing Verify the functionalities of the system against the
+regression testing Verify that changes to the software do not break the
+ functionalities of the previous version.
+Load testing Verify the behavior of the system under both normal and
+ anticipated peak load conditions.
+Stress testing Verify the behavior of the system beyond its capacity.
+
+Reliability testing Verify that the failure rate of the software is under an
+acceptable level.
+Usability testing Verify that the ease of using and learning the software. 
+Validation testing Verify that the software delivers what the users expect
+ (alpha testing and beta testing).
+June 5, 2013
+21 / 26Domain(PMOD)
+SE-307 Software Testing Techniques
+Operation system
+
+Kernel, device driver
+Database application
+
+SQL table, transaction processing, ACID
+Web application
+
+Javascript, Ajax, HTML5
+Multi-threaded application
+
+Data race, atomicity, transactional memory, asychronized tasks
+Cloud application
+
+Map-reduce, distributed computing

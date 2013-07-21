@@ -1,0 +1,17 @@
+Who did it?
+
+Client: Inappropriate software reuse, communication error.
+Requirement engineer: Omission, misunderstanding, or deliberate
+deviations of software requirements.
+Designer: Wrong algorithms, wrong handling of boundary
+conditions, omission of system states, missing abnormal operation
+handling.
+Programmer: Misunderstanding of design doc, mental lapse while
+coding, non-compliance with documentation and coding instructions.
+Quality assurance team: Incomplete test plan, not document and
+report detected faults or failures, not promptly correct faults,
+incomplete correction of detected errors.
+Operational staff: Procedure errors.
+Technical writer: Omission of software functions, not up-to-date,
+error in descriptions.
+June 5, 2013
