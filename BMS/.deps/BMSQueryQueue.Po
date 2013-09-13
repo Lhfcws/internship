@@ -1,0 +1,2048 @@
+BMSQueryQueue.o BMSQueryQueue.o: BMSQueryQueue.cpp BMSQueryQueue.h BMS.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/iostream \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ostream \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ios \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/iosfwd \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstring \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstddef \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stddef.h \
+  /usr/include/string.h /usr/include/xlocale.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstdio \
+  /usr/include/stdio.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h /usr/include/bits/wchar.h \
+  /usr/include/gconv.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/clocale \
+  /usr/include/locale.h /usr/include/bits/locale.h \
+  /usr/include/langinfo.h /usr/include/nl_types.h /usr/include/iconv.h \
+  /usr/include/libintl.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++io.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/gthr.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/sched.h /usr/include/time.h /usr/include/bits/sched.h \
+  /usr/include/bits/time.h /usr/include/signal.h \
+  /usr/include/bits/sigset.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cctype \
+  /usr/include/ctype.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stringfwd.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/postypes.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cwchar \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ctime \
+  /usr/include/stdint.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/functexcept.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/exception_defines.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/exception \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/char_traits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_algobase.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/climits \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/limits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstdlib \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_pair.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/cpp_type_traits.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_iterator_base_types.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_iterator_base_funcs.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/concept_check.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_iterator.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/debug/debug.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/localefwd.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/ios_base.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/atomicity.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/locale_classes.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/string \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/memory \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/allocator.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/new_allocator.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/new \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_construct.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_uninitialized.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_raw_storage_iter.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/limits \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_function.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_string.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/algorithm \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_algo.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_heap.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_tempbuf.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_string.tcc \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/streambuf \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/streambuf.tcc \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_ios.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/streambuf_iterator.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/locale_facets.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cwctype \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/codecvt.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/time_members.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/messages_members.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_ios.tcc \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/ostream.tcc \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/locale \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/locale_facets.tcc \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/typeinfo \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/istream \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/istream.tcc \
+  /usr/include/assert.h /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-x86_64/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h /usr/include/sys/socket.h \
+  /usr/include/sys/uio.h /usr/include/bits/uio.h \
+  /usr/include/bits/socket.h /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h /usr/include/asm-x86_64/socket.h \
+  /usr/include/asm/sockios.h /usr/include/asm-x86_64/sockios.h \
+  /usr/include/netinet/in.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h ../../../..//src/common/common.h \
+  ../../../..//src/sche/Query.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/vector \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_vector.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_bvector.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/vector.tcc \
+  ../../../..//src/common/common.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/Compressor.h \
+  ../../../..//src/common/common.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  ../../../..//include/util/Debug.h \
+  ../../../..//include/util/UtilNamespace.h \
+  ../../../..//include/util/Log.h \
+  /home/lhfcws/ISEARCH//opt/alog/include/alog/Configurator.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/stdexcept \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/map \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_tree.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_map.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_multimap.h \
+  /home/lhfcws/ISEARCH//opt/alog/include/alog/Logger.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/set \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_set.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_multiset.h \
+  /home/lhfcws/ISEARCH//opt/alog/include/alog/Appender.h \
+  /usr/include/syslog.h /usr/include/sys/syslog.h \
+  /usr/include/bits/syslog-path.h \
+  /home/lhfcws/ISEARCH//opt/alog/include/alog/Sync.h \
+  /home/lhfcws/ISEARCH//opt/alog/include/alog/Layout.h \
+  /home/lhfcws/ISEARCH//opt/alog/include/alog/Logger.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/_MemPool.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/ObjectPool.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/Pool.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/PoolDefine.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/MonotoneChunkPolicy.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/Allocators.h \
+  /usr/include/sys/mman.h /usr/include/bits/mman.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/ExpIncChunkPolicy.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/AdaptiveStatPolicy.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/TSS.h \
+  /home/lhfcws/ISEARCH//opt/pool/include/pool/MemMonitor.h \
+  ../../../..//src/sche/Iterator.h ../../../..//src/sche/ConnectionPool.h \
+  ../../../..//src/util/ThreadLock.h ../../../..//src/common/common.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/anet.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/transport.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/queue \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/deque \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_deque.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/deque.tcc \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_queue.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/thread.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/runnable.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/epollsocketevent.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/socketevent.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/ipacketstreamer.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/controlpacket.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/packet.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/ipacketfactory.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/iserveradapter.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/connection.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/packetqueue.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/threadcond.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/threadmutex.h \
+  /usr/include/sys/time.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/channelpool.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/atomic.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/hash_map \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/hashtable.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/iterator \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stream_iterator.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/hash_fun.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/list \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_list.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/list.tcc \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/ipackethandler.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/iocomponent.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/socket.h \
+  /usr/include/netinet/tcp.h /usr/include/arpa/inet.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacket.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacketfactory.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacketstreamer.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httppacket.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/databuffer.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacket.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httppacketfactory.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httpstreamer.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/streamingcontext.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httpstreamingcontext.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacketstreamer.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httppacket.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/timeutil.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httprequestpacket.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httppacketstreamer.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/httpresponsepacket.h \
+  ../../../..//src/sche/application/blender/blender.h \
+  ../../../..//include/util/Log.h \
+  ../../../..//src/sche/application/blender/BlenderSort.h \
+  ../../../..//src/sort/IBaseSort.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/sstream \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/sstream.tcc \
+  ../../../..//src/common/common.h ../../../..//include/util/Log.h \
+  ../../../..//src/util/vsa/IVSAData.h \
+  ../../../..//src/util/vsa/VSACommon.h \
+  ../../../..//src/util/vsa/any_struct.h \
+  ../../../..//include/dlmodule/DlModuleInterface.h ../../../../config.h \
+  /usr/include/inttypes.h ../../../..//src/util/vsa/IVSAContainer.h \
+  ../../../..//src/util/vsa/IVSAData.h \
+  ../../../..//include/dlmodule/DlModuleInterface.h \
+  ../../../..//include/mlr/IConfigureInterface.h ../../../../config.h \
+  ../../../..//include/dlmodule/DlModuleInterface.h \
+  ../../../..//src/sort/objpool/INode.h ../../../../config.h \
+  ../../../..//include/dlmodule/DlModuleInterface.h \
+  ../../../..//src/common/common.h \
+  ../../../..//src/sort/objpool/VSANameDefine.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/sort/objpool/ObjectPool.h \
+  ../../../..//src/sort/objpool/IObjectPool.h \
+  ../../../..//src/sort/objpool/INode.h \
+  ../../../..//src/sort/objpool/dlmodule_interface_manager.h \
+  ../../../..//include/mlr/IRelevanceScoring.h \
+  ../../../..//include/mlr/SegFields.h \
+  ../../../..//include/mlr/IConfigureInterface.h \
+  ../../../..//include/mlr/IAPIProviderInterface.h \
+  ../../../..//include/mlr/IParameterInterface.h \
+  ../../../..//include/mlr/ISegmenterInterface.h \
+  ../../../..//include/mlr/ISearchResultInterface.h \
+  ../../../..//include/mlr/IMultyProfileReader.h \
+  ../../../..//include/dlmodule/DlModuleManager.h \
+  ../../../..//include/util/Log.h \
+  /home/lhfcws/ISEARCH//opt/mxml/include/mxml.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/secore/utility/MemHeap.h \
+  ../../../..//src/secore/utility/CommonAlgorithm.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/secore/utility/StringUtility.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  ../../../..//src/secore/basis/KeywordTerm.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/common/common.h \
+  ../../../..//src/secore/utility/PriorityQueue.h \
+  ../../../..//include/dlmodule/DlModuleInterface.h \
+  ../../../..//src/sort/objpool/interface_manager.h \
+  ../../../..//src/sort/objpool/inproc_interface_manager.h \
+  ../../../..//include/util/Log.h \
+  ../../../..//src/sort/objpool/ConfigManager.h \
+  ../../../..//src/sort/objpool/Node.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/secore/utility/StringUtility.h \
+  /home/lhfcws/ISEARCH//opt/mxml/include/mxml.h \
+  ../../../..//src/secore/utility/Svector.h \
+  ../../../..//include/util/iexit.h /usr/include/bits/signum.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
+  ../../../..//src/sort/objpool/CfgRoot.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/StringUtility.h \
+  ../../../..//include/mlr/SInterfaceParameter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/SegmentInfo.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Document.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Field.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldInfo.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH//opt/mxml/include/mxml.h \
+  ../../../..//src/secore/utility/StrKey.hpp \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/BaseFile.h \
+  ../../../..//src/secore/utility/StringUtility.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/DeletedMap.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h \
+  ../../../..//src/secore/utility/BitmapIndex.h \
+  ../../../..//src/secore/utility/Svector.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfos.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/secore/utility/Svector.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h \
+  ../../../..//src/secore/utility/StringUtility.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldsInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/ShmFile.h \
+  /usr/include/sys/shm.h /usr/include/sys/ipc.h \
+  /usr/include/bits/ipctypes.h /usr/include/bits/ipc.h \
+  /usr/include/bits/shm.h ../../../..//src/secore/utility/NamedLock.h \
+  /usr/include/sys/file.h ../../../..//src/secore/utility/Lock.h \
+  ../../../..//src/secore/basis/KeywordTermInfo.h \
+  ../../../..//src/secore/utility/BitmapIndex.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/TermInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/BaseFile.h \
+  ../../../..//src/secore/basis/KeywordTerm.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexFile.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AbstractInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/Attribute.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Field.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Document.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/FsFile.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/ShmFile.h \
+  ../../../..//src/secore/utility/HashTable.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfo.h \
+  ../../../..//src/secore/utility/Slist.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/Indexer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Token.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfo.h \
+  ../../../..//src/secore/basis/KeywordTerm.h \
+  ../../../..//src/secore/basis/KeywordTermInfo.h \
+  ../../../..//src/secore/utility/TimeUtility.h \
+  ../../../..//src/secore/utility/../basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Analyzer.h \
+  ../../../..//src/secore/utility/ObjectFactory.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/secore/utility/Svector.h \
+  ../../../..//src/secore/utility/Singleton.h \
+  ../../../..//src/secore/utility/StringUtility.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/StopFilter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/TokenFilter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/TokenStream.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/secore/utility/Svector.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/UnityFilter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/TokenFilter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DictionaryHelper.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GbkCoder.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/NameManager.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/NLPDictionaryReader.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DoubleTrieBaseReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/InnerWordItem.h \
+  ../../../..//src/secore/utility/StringUtility.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GBKNormalString.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MemReadFile.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpeCategoryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/CategoryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/CategoryLeaf.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GenCategoryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/ForwordSpeDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/ForwordDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/WordItem.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PureDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/BackwordSpeDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/BackwordDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/ForwordGenDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/BackwordGenDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PureGenDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PureSpeDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpecialDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpecialWordItem.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/EnSpecialDictionaryReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/trie.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/w_mmap.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GenCategoryWordReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/CategoryWordReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpeCategoryWordReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpeSpellCheck.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpellCheck.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PronTable.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GenSpellCheck.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpellCheck_old.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DependTreeReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DictionaryHelper.h \
+  ../../../..//src/secore/utility/MemHeap.h \
+  ../../../..//src/secore/utility/SkipList.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/PluginManager.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Analyzer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/Similarity.h \
+  ../../../..//src/secore/utility/Singleton.h \
+  ../../../..//src/secore/utility/ObjectFactory.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/PackageQuery.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/Query.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/secore/basis/KeywordTerm.h \
+  ../../../..//src/secore/basis/KeywordTermInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FirstAuditionInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/PairItemInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/CatTransFormer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/CatConfigLoader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/BaseFile.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/DocumentTemplate.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldsInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AbstractInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/UnionTable.h \
+  /home/lhfcws/ISEARCH//opt/WangWangOnline/include/wangwang_online/HashTableBase.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cmath \
+  /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h /usr/include/bits/nan.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/cmath.tcc \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/TermInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/SetsOperator.h \
+  ../../../..//src/secore/utility/Svector.h \
+  ../../../..//src/secore/utility/BitmapIndex.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/ScoreDocs.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/WordItem.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryCache.h \
+  ../../../..//src/secore/utility/MemCache.h \
+  ../../../..//src/secore/utility/TimeUtility.h \
+  ../../../..//src/secore/utility/Lock.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/DocFilter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexFile.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/UnionTable.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/UnionTableReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/../config/UnionTable.h \
+  /home/lhfcws/ISEARCH//opt/WangWangOnline/include/wangwang_online/UserTable.h \
+  /home/lhfcws/ISEARCH//opt/WangWangOnline/include/wangwang_online/HashTableBase.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexcfManager.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/GlobalInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/UnionTableReader.h \
+  ../../../..//src/secore/utility/StringUtility.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/SlvAttributeReader.h \
+  ../../../..//include/build/IAttributeReader.h \
+  ../../../..//include/build/IDocIterator.h \
+  ../../../..//include/dlmodule/DlModuleInterface.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../../src/util/vsa/VSACommon.h \
+  ../../../../src/util/vsa/IVSAData.h \
+  ../../../../src/secore/utility/Svector.h \
+  ../../../..//src/secore/build/Attribute.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryParameter.h \
+  ../../../..//src/secore/utility/SPair.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ResultConfig.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h \
+  ../../../..//include/mlr/SegFields.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexcfManager.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryFilter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/InnerCache.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/utility \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_relops.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DictionaryHelper.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/DefaultSimilarity.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/nlprocess/BaseTokenizer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/nlprocess/../GBKNormalString.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/WSAnalyzer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Analyzer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/nlprocess/WordSegmenter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/UnityAnalyzer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/MultiKeyAnalyzer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/../Analyzer.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/P4PPropertyAnalyzer.h \
+  ../../../..//include/util/Log.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryParameter.h \
+  ../../../..//src/secore/utility/Singleton.h \
+  ../../../..//src/sort/SortDecisionMaker.h \
+  ../../../..//src/sort/IBaseSort.h \
+  ../../../..//src/sort/objpool/IObjectPool.h \
+  ../../../..//src/sort/Condition.h \
+  /home/lhfcws/ISEARCH//opt/mxml/include/mxml.h \
+  ../../../..//src/sort/SortManager.h \
+  ../../../..//src/sort/SortDecisionMaker.h \
+  ../../../..//src/secore/search/SearchResult.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/WordItem.h \
+  ../../../..//src/secore/utility/Cache.h \
+  ../../../..//src/secore/utility/CacheMemPool.h \
+  ../../../..//src/util/vsa/VSAContainer.h \
+  ../../../..//src/util/vsa/IVSAContainer.h \
+  ../../../..//src/util/vsa/VSAContainerSerialize.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/util/vsa/VSAData.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  ../../../..//src/util/vsa/MallocAllocator.h \
+  ../../../..//src/util/vsa/ChunkAllocator.h \
+  ../../../..//src/util/vsa/MempoolAllocator.h \
+  ../../../..//src/sort/buildin/uniqueII/UniqIIHelper.h \
+  ../../../..//src/sort/SortHelper.h ../../../..//include/mlr/IInternal.h \
+  ../../../..//src/secore/search/QueryParameter.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  ../../../..//include/mlr/IAPIProviderInterface.h \
+  ../../../..//include/mlr/IISearchConf.h \
+  ../../../../src/secore/config/ProfileInfo.h \
+  ../../../../src/secore/config/FirstAuditionInfo.h \
+  ../../../../src/secore/config/MlrInfo.h \
+  /home/lhfcws/ISEARCH//opt/mxml/include/mxml.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/secore/utility/Svector.h \
+  ../../../../src/secore/config/PairItemInfo.h \
+  ../../../..//src/secore/config/JoinAreaInfo.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH//opt/mxml/include/mxml.h \
+  ../../../..//include/mlr/IIndexInterface.h \
+  ../../../..//include/build/ISegmentFile.h \
+  ../../../..//include/build/IIndexTravel.h \
+  ../../../..//src/secore/config/ProfileInfo.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/sort/objpool/VSANameDefine.h \
+  ../../../..//src/sort/IBaseSort.h ../../../..//src/util/vsa/IVSAData.h \
+  ../../../..//src/sort/Compare.h \
+  ../../../..//src/sort/buildin/preparation/ScoreOperators.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/float.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  ../../../..//src/secore/search/SlvAttributeReader.h \
+  ../../../..//src/sche/application/blender/DocumentRewrite.h \
+  ../../../..//src/sche/application/blender/DocumentRewriteInterface.h \
+  ../../../..//include/dlmodule/DlModuleInterface.h \
+  ../../../..//src/sche/application/blender/blender.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Document.h \
+  ../../../..//src/util/vsa/IVSAContainer.h \
+  ../../../..//src/util/vsa/VSAContainer.h \
+  ../../../..//src/util/vsa/VSAData.h \
+  ../../../..//include/dlmodule/DlModuleManager.h \
+  ../../../..//src/util/ThreadLock.h \
+  ../../../..//src/sche/application/blender/QueryRewrite.h \
+  ../../../..//src/sche/Query.h \
+  ../../../..//src/sche/application/blender/MemPoolFactory.h \
+  ../../../..//src/sche/application/blender/blender.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/stack \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_stack.h \
+  ../../../..//src/sche/application/blender/ISearchResultProcessor.h \
+  ../../../..//src/common/common.h \
+  ../../../..//src/secore/utility/Cache.h \
+  ../../../..//src/util/configure.h ../../../..//src/sche/Query.h \
+  ../../../..//src/sche/Request.h ../../../..//src/clustermap/CMTree.h \
+  /home/lhfcws/ISEARCH//opt/mxml/include/mxml.h \
+  ../../../..//src/clustermap/CMNode.h ../../../..//src/common/common.h \
+  ../../../..//src/util/ThreadLock.h ../../../..//src/util/ScopedLock.h \
+  ../../../..//src/util/ThreadLock.h \
+  ../../../..//src/util/ResourceMonitor.h \
+  ../../../..//src/util/ScopedLock.h \
+  ../../../..//src/clustermap/ResourceMonitor.h \
+  ../../../..//include/util/Log.h \
+  ../../../..//src/sche/application/searcher/searcher.h \
+  ../../../..//src/sche/application/blender/QueryFilter.h \
+  ../../../..//src/sche/application/blender/QueryFilterInterface.h \
+  ../../../..//src/sche/application/blender/QueryRewrite.h \
+  ../../../..//src/sche/application/blender/DocumentRewrite.h \
+  ../../../..//src/sche/application/detail/rf/ResultFormat.h \
+  ../../../..//src/sche/application/detail/detail.h \
+  ../../../..//src/sche/application/detail/rf/ResultFormat.h \
+  ../../../..//src/secore/search/SearchResult.h \
+  ../../../..//src/secore/search/QueryParameter.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  ../../../..//src/common/common.h \
+  ../../../..//src/util/vsa/IVSAContainer.h \
+  ../../../..//src/util/vsa/VSAContainer.h \
+  ../../../..//src/util/vsa/VSAData.h \
+  ../../../..//src/util/vsa/IVSAData.h \
+  ../../../..//src/sche/application/detail/rf/ResultFormatFactory.h \
+  ../../../..//src/secore/search/Ors.h \
+  ../../../..//src/secore/search/IOrs.h \
+  ../../../..//src/secore/utility/HashMap.h \
+  ../../../..//src/secore/utility/Svector.h \
+  ../../../..//src/secore/search/QueryParameter.h \
+  ../../../..//src/secore/search/SearchResultSerializer.h \
+  ../../../..//src/secore/search/SearchResult.h \
+  ../../../..//src/secore/search/QueryParameter.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/MemPool.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  ../../../..//src/secore/search/Statistic.h \
+  ../../../..//src/secore/utility/Svector.h \
+  ../../../..//src/sche/Session.h ../../../..//src/sche/Query.h \
+  ../../../..//src/sche/application/blender/MemPoolFactory.h \
+  ../../../..//src/sche/application/blender/blender.h \
+  ../../../..//include/simon/simonISearchApi.h \
+  ../../../..//src/clustermap/CMClient.h \
+  ../../../..//src/clustermap/DGramClient.h \
+  ../../../..//src/clustermap/DGramCommon.h \
+  ../../../..//src/clustermap/CMTree.h \
+  ../../../..//src/clustermap/DGramServer.h \
+  ../../../..//src/clustermap/CMWatchPoint.h \
+  ../../../..//src/clustermap/CMClientInterface.h \
+  ../../../..//src/secore/dispense/GroupDispenser.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/Svector.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispatcher/MsgRecord.h \
+  ../../../..//src/secore/basis/GlobalDef.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/HashMap.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/Svector.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispatcher/DAUMsg.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispatcher/Logger.h \
+  ../../../..//include/util/Log.h \
+  ../../../..//src/secore/dispense/GroupDispenserFactory.h \
+  ../../../..//src/secore/dispense/P4PGroupDispenser.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispense/GroupDispenser.h \
+  ../../../..//src/secore/dispense/DefaultGroupDispenser.h \
+  ../../../..//src/secore/dispense/GroupDispenser.h \
+  ../../../..//src/secore/utility/MemPool.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h \
+  /home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexReader.h \
+  ../../../..//src/sche/application/detail/rf/ResultFormatFactory.h \
+  ../../../..//src/sche/application/detail/detail.h \
+  ../../../..//src/sche/application/searcher/searcher.h \
+  ../../../..//src/clustermap/CMNode.h ../../../..//src/sort/IBaseSort.h \
+  ../../../..//src/secore/search/Ors.h \
+  ../../../..//src/secore/search/QueryParameter.h \
+  ../../../..//src/secore/search/SearchResult.h \
+  ../../../..//src/secore/search/SearchResultSerializer.h \
+  ../../../..//src/util/vsa/VSAContainer.h \
+  /home/lhfcws/ISEARCH//opt/anet/include/anet/tcpconnection.h \
+  ../../../..//src/util/configure.h /usr/include/semaphore.h \
+  /usr/include/bits/semaphore.h
+
+BMSQueryQueue.h:
+
+BMS.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/iostream:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ostream:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ios:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/iosfwd:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstring:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstddef:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stddef.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstdio:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/langinfo.h:
+
+/usr/include/nl_types.h:
+
+/usr/include/iconv.h:
+
+/usr/include/libintl.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++io.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sched.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cctype:
+
+/usr/include/ctype.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/postypes.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cwchar:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ctime:
+
+/usr/include/stdint.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/functexcept.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/exception_defines.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/exception:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_algobase.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/climits:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/alloca.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_pair.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/cpp_type_traits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_iterator_base_funcs.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/concept_check.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_iterator.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/debug/debug.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/localefwd.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/ios_base.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/atomicity.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/atomic_word.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/locale_classes.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/string:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/memory:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/allocator.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/new_allocator.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/new:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_construct.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_uninitialized.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_raw_storage_iter.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/limits:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_function.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_string.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/algorithm:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_algo.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_heap.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_tempbuf.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_string.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/streambuf:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/streambuf.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_ios.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_base.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/ctype_inline.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/codecvt.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/time_members.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/x86_64-redhat-linux/bits/messages_members.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/basic_ios.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/ostream.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/locale:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/locale_facets.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/typeinfo:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/istream:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/istream.tcc:
+
+/usr/include/assert.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-x86_64/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-x86_64/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-x86_64/sockios.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/bits/byteswap.h:
+
+../../../..//src/common/common.h:
+
+../../../..//src/sche/Query.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/vector:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_vector.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_bvector.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/vector.tcc:
+
+../../../..//src/common/common.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/Compressor.h:
+
+../../../..//src/common/common.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+../../../..//include/util/Debug.h:
+
+../../../..//include/util/UtilNamespace.h:
+
+../../../..//include/util/Log.h:
+
+/home/lhfcws/ISEARCH//opt/alog/include/alog/Configurator.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/stdexcept:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/map:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_tree.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_map.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_multimap.h:
+
+/home/lhfcws/ISEARCH//opt/alog/include/alog/Logger.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/set:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_set.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_multiset.h:
+
+/home/lhfcws/ISEARCH//opt/alog/include/alog/Appender.h:
+
+/usr/include/syslog.h:
+
+/usr/include/sys/syslog.h:
+
+/usr/include/bits/syslog-path.h:
+
+/home/lhfcws/ISEARCH//opt/alog/include/alog/Sync.h:
+
+/home/lhfcws/ISEARCH//opt/alog/include/alog/Layout.h:
+
+/home/lhfcws/ISEARCH//opt/alog/include/alog/Logger.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/_MemPool.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/ObjectPool.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/Pool.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/PoolDefine.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/MonotoneChunkPolicy.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/Allocators.h:
+
+/usr/include/sys/mman.h:
+
+/usr/include/bits/mman.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/ExpIncChunkPolicy.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/AdaptiveStatPolicy.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/TSS.h:
+
+/home/lhfcws/ISEARCH//opt/pool/include/pool/MemMonitor.h:
+
+../../../..//src/sche/Iterator.h:
+
+../../../..//src/sche/ConnectionPool.h:
+
+../../../..//src/util/ThreadLock.h:
+
+../../../..//src/common/common.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/anet.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/transport.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/queue:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/deque:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_deque.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/deque.tcc:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_queue.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/thread.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/runnable.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/epollsocketevent.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/socketevent.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/ipacketstreamer.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/controlpacket.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/packet.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/ipacketfactory.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/iserveradapter.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/connection.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/packetqueue.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/threadcond.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/threadmutex.h:
+
+/usr/include/sys/time.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/channelpool.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/atomic.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/hash_map:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/hashtable.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/iterator:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stream_iterator.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/ext/hash_fun.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/list:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_list.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/list.tcc:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/ipackethandler.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/iocomponent.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/socket.h:
+
+/usr/include/netinet/tcp.h:
+
+/usr/include/arpa/inet.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacket.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacketfactory.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacketstreamer.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httppacket.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/databuffer.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacket.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httppacketfactory.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httpstreamer.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/streamingcontext.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httpstreamingcontext.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/defaultpacketstreamer.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httppacket.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/timeutil.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httprequestpacket.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httppacketstreamer.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/httpresponsepacket.h:
+
+../../../..//src/sche/application/blender/blender.h:
+
+../../../..//include/util/Log.h:
+
+../../../..//src/sche/application/blender/BlenderSort.h:
+
+../../../..//src/sort/IBaseSort.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/sstream:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/sstream.tcc:
+
+../../../..//src/common/common.h:
+
+../../../..//include/util/Log.h:
+
+../../../..//src/util/vsa/IVSAData.h:
+
+../../../..//src/util/vsa/VSACommon.h:
+
+../../../..//src/util/vsa/any_struct.h:
+
+../../../..//include/dlmodule/DlModuleInterface.h:
+
+../../../../config.h:
+
+/usr/include/inttypes.h:
+
+../../../..//src/util/vsa/IVSAContainer.h:
+
+../../../..//src/util/vsa/IVSAData.h:
+
+../../../..//include/dlmodule/DlModuleInterface.h:
+
+../../../..//include/mlr/IConfigureInterface.h:
+
+../../../../config.h:
+
+../../../..//include/dlmodule/DlModuleInterface.h:
+
+../../../..//src/sort/objpool/INode.h:
+
+../../../../config.h:
+
+../../../..//include/dlmodule/DlModuleInterface.h:
+
+../../../..//src/common/common.h:
+
+../../../..//src/sort/objpool/VSANameDefine.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/sort/objpool/ObjectPool.h:
+
+../../../..//src/sort/objpool/IObjectPool.h:
+
+../../../..//src/sort/objpool/INode.h:
+
+../../../..//src/sort/objpool/dlmodule_interface_manager.h:
+
+../../../..//include/mlr/IRelevanceScoring.h:
+
+../../../..//include/mlr/SegFields.h:
+
+../../../..//include/mlr/IConfigureInterface.h:
+
+../../../..//include/mlr/IAPIProviderInterface.h:
+
+../../../..//include/mlr/IParameterInterface.h:
+
+../../../..//include/mlr/ISegmenterInterface.h:
+
+../../../..//include/mlr/ISearchResultInterface.h:
+
+../../../..//include/mlr/IMultyProfileReader.h:
+
+../../../..//include/dlmodule/DlModuleManager.h:
+
+../../../..//include/util/Log.h:
+
+/home/lhfcws/ISEARCH//opt/mxml/include/mxml.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/secore/utility/MemHeap.h:
+
+../../../..//src/secore/utility/CommonAlgorithm.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/secore/utility/StringUtility.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+../../../..//src/secore/basis/KeywordTerm.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/common/common.h:
+
+../../../..//src/secore/utility/PriorityQueue.h:
+
+../../../..//include/dlmodule/DlModuleInterface.h:
+
+../../../..//src/sort/objpool/interface_manager.h:
+
+../../../..//src/sort/objpool/inproc_interface_manager.h:
+
+../../../..//include/util/Log.h:
+
+../../../..//src/sort/objpool/ConfigManager.h:
+
+../../../..//src/sort/objpool/Node.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/secore/utility/StringUtility.h:
+
+/home/lhfcws/ISEARCH//opt/mxml/include/mxml.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+../../../..//include/util/iexit.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+../../../..//src/sort/objpool/CfgRoot.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/StringUtility.h:
+
+../../../..//include/mlr/SInterfaceParameter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/SegmentInfo.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Document.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Field.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldInfo.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH//opt/mxml/include/mxml.h:
+
+../../../..//src/secore/utility/StrKey.hpp:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/BaseFile.h:
+
+../../../..//src/secore/utility/StringUtility.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/DeletedMap.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h:
+
+../../../..//src/secore/utility/BitmapIndex.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfos.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h:
+
+../../../..//src/secore/utility/StringUtility.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldsInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/ShmFile.h:
+
+/usr/include/sys/shm.h:
+
+/usr/include/sys/ipc.h:
+
+/usr/include/bits/ipctypes.h:
+
+/usr/include/bits/ipc.h:
+
+/usr/include/bits/shm.h:
+
+../../../..//src/secore/utility/NamedLock.h:
+
+/usr/include/sys/file.h:
+
+../../../..//src/secore/utility/Lock.h:
+
+../../../..//src/secore/basis/KeywordTermInfo.h:
+
+../../../..//src/secore/utility/BitmapIndex.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/TermInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/BaseFile.h:
+
+../../../..//src/secore/basis/KeywordTerm.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexFile.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AbstractInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/Attribute.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Field.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Document.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/FsFile.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/ShmFile.h:
+
+../../../..//src/secore/utility/HashTable.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfo.h:
+
+../../../..//src/secore/utility/Slist.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/build/Indexer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Token.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfo.h:
+
+../../../..//src/secore/basis/KeywordTerm.h:
+
+../../../..//src/secore/basis/KeywordTermInfo.h:
+
+../../../..//src/secore/utility/TimeUtility.h:
+
+../../../..//src/secore/utility/../basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Analyzer.h:
+
+../../../..//src/secore/utility/ObjectFactory.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+../../../..//src/secore/utility/Singleton.h:
+
+../../../..//src/secore/utility/StringUtility.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/StopFilter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/TokenFilter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/TokenStream.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/UnityFilter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/TokenFilter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DictionaryHelper.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GbkCoder.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/NameManager.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/NLPDictionaryReader.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DoubleTrieBaseReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/InnerWordItem.h:
+
+../../../..//src/secore/utility/StringUtility.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GBKNormalString.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MemReadFile.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpeCategoryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/CategoryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/CategoryLeaf.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GenCategoryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/ForwordSpeDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/ForwordDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/WordItem.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PureDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/BackwordSpeDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/BackwordDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/ForwordGenDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/BackwordGenDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PureGenDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PureSpeDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpecialDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpecialWordItem.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/EnSpecialDictionaryReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/trie.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/w_mmap.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GenCategoryWordReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/CategoryWordReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpeCategoryWordReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpeSpellCheck.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpellCheck.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/PronTable.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/GenSpellCheck.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/SpellCheck_old.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DependTreeReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DictionaryHelper.h:
+
+../../../..//src/secore/utility/MemHeap.h:
+
+../../../..//src/secore/utility/SkipList.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/PluginManager.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Analyzer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/Similarity.h:
+
+../../../..//src/secore/utility/Singleton.h:
+
+../../../..//src/secore/utility/ObjectFactory.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/PackageQuery.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/Query.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/secore/basis/KeywordTerm.h:
+
+../../../..//src/secore/basis/KeywordTermInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FirstAuditionInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/PairItemInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/CatTransFormer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/CatConfigLoader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/BaseFile.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/store/MMapFile.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/DocumentTemplate.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/FieldsInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AbstractInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/UnionTable.h:
+
+/home/lhfcws/ISEARCH//opt/WangWangOnline/include/wangwang_online/HashTableBase.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/cmath.tcc:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/TermInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/SetsOperator.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+../../../..//src/secore/utility/BitmapIndex.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/ScoreDocs.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/WordItem.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryCache.h:
+
+../../../..//src/secore/utility/MemCache.h:
+
+../../../..//src/secore/utility/TimeUtility.h:
+
+../../../..//src/secore/utility/Lock.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/DocFilter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ProfileInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexFile.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/UnionTable.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/UnionTableReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/../config/UnionTable.h:
+
+/home/lhfcws/ISEARCH//opt/WangWangOnline/include/wangwang_online/UserTable.h:
+
+/home/lhfcws/ISEARCH//opt/WangWangOnline/include/wangwang_online/HashTableBase.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexcfManager.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/GlobalInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/UnionTableReader.h:
+
+../../../..//src/secore/utility/StringUtility.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/SlvAttributeReader.h:
+
+../../../..//include/build/IAttributeReader.h:
+
+../../../..//include/build/IDocIterator.h:
+
+../../../..//include/dlmodule/DlModuleInterface.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../../src/util/vsa/VSACommon.h:
+
+../../../../src/util/vsa/IVSAData.h:
+
+../../../../src/secore/utility/Svector.h:
+
+../../../..//src/secore/build/Attribute.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryParameter.h:
+
+../../../..//src/secore/utility/SPair.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/ResultConfig.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h:
+
+../../../..//include/mlr/SegFields.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/IndexcfManager.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryFilter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/InnerCache.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/utility:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_relops.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/DictionaryHelper.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/DefaultSimilarity.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/nlprocess/BaseTokenizer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/nlprocess/../GBKNormalString.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/WSAnalyzer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/Analyzer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/nlprocess/WordSegmenter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/UnityAnalyzer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/MultiKeyAnalyzer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/../Analyzer.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/analysis/chinese/P4PPropertyAnalyzer.h:
+
+../../../..//include/util/Log.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/search/QueryParameter.h:
+
+../../../..//src/secore/utility/Singleton.h:
+
+../../../..//src/sort/SortDecisionMaker.h:
+
+../../../..//src/sort/IBaseSort.h:
+
+../../../..//src/sort/objpool/IObjectPool.h:
+
+../../../..//src/sort/Condition.h:
+
+/home/lhfcws/ISEARCH//opt/mxml/include/mxml.h:
+
+../../../..//src/sort/SortManager.h:
+
+../../../..//src/sort/SortDecisionMaker.h:
+
+../../../..//src/secore/search/SearchResult.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dictionary/WordItem.h:
+
+../../../..//src/secore/utility/Cache.h:
+
+../../../..//src/secore/utility/CacheMemPool.h:
+
+../../../..//src/util/vsa/VSAContainer.h:
+
+../../../..//src/util/vsa/IVSAContainer.h:
+
+../../../..//src/util/vsa/VSAContainerSerialize.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/util/vsa/VSAData.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+../../../..//src/util/vsa/MallocAllocator.h:
+
+../../../..//src/util/vsa/ChunkAllocator.h:
+
+../../../..//src/util/vsa/MempoolAllocator.h:
+
+../../../..//src/sort/buildin/uniqueII/UniqIIHelper.h:
+
+../../../..//src/sort/SortHelper.h:
+
+../../../..//include/mlr/IInternal.h:
+
+../../../..//src/secore/search/QueryParameter.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+../../../..//include/mlr/IAPIProviderInterface.h:
+
+../../../..//include/mlr/IISearchConf.h:
+
+../../../../src/secore/config/ProfileInfo.h:
+
+../../../../src/secore/config/FirstAuditionInfo.h:
+
+../../../../src/secore/config/MlrInfo.h:
+
+/home/lhfcws/ISEARCH//opt/mxml/include/mxml.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+../../../../src/secore/config/PairItemInfo.h:
+
+../../../..//src/secore/config/JoinAreaInfo.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH//opt/mxml/include/mxml.h:
+
+../../../..//include/mlr/IIndexInterface.h:
+
+../../../..//include/build/ISegmentFile.h:
+
+../../../..//include/build/IIndexTravel.h:
+
+../../../..//src/secore/config/ProfileInfo.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/sort/objpool/VSANameDefine.h:
+
+../../../..//src/sort/IBaseSort.h:
+
+../../../..//src/util/vsa/IVSAData.h:
+
+../../../..//src/sort/Compare.h:
+
+../../../..//src/sort/buildin/preparation/ScoreOperators.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/float.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+../../../..//src/secore/search/SlvAttributeReader.h:
+
+../../../..//src/sche/application/blender/DocumentRewrite.h:
+
+../../../..//src/sche/application/blender/DocumentRewriteInterface.h:
+
+../../../..//include/dlmodule/DlModuleInterface.h:
+
+../../../..//src/sche/application/blender/blender.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/document/Document.h:
+
+../../../..//src/util/vsa/IVSAContainer.h:
+
+../../../..//src/util/vsa/VSAContainer.h:
+
+../../../..//src/util/vsa/VSAData.h:
+
+../../../..//include/dlmodule/DlModuleManager.h:
+
+../../../..//src/util/ThreadLock.h:
+
+../../../..//src/sche/application/blender/QueryRewrite.h:
+
+../../../..//src/sche/Query.h:
+
+../../../..//src/sche/application/blender/MemPoolFactory.h:
+
+../../../..//src/sche/application/blender/blender.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/stack:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/../../../../include/c++/4.1.2/bits/stl_stack.h:
+
+../../../..//src/sche/application/blender/ISearchResultProcessor.h:
+
+../../../..//src/common/common.h:
+
+../../../..//src/secore/utility/Cache.h:
+
+../../../..//src/util/configure.h:
+
+../../../..//src/sche/Query.h:
+
+../../../..//src/sche/Request.h:
+
+../../../..//src/clustermap/CMTree.h:
+
+/home/lhfcws/ISEARCH//opt/mxml/include/mxml.h:
+
+../../../..//src/clustermap/CMNode.h:
+
+../../../..//src/common/common.h:
+
+../../../..//src/util/ThreadLock.h:
+
+../../../..//src/util/ScopedLock.h:
+
+../../../..//src/util/ThreadLock.h:
+
+../../../..//src/util/ResourceMonitor.h:
+
+../../../..//src/util/ScopedLock.h:
+
+../../../..//src/clustermap/ResourceMonitor.h:
+
+../../../..//include/util/Log.h:
+
+../../../..//src/sche/application/searcher/searcher.h:
+
+../../../..//src/sche/application/blender/QueryFilter.h:
+
+../../../..//src/sche/application/blender/QueryFilterInterface.h:
+
+../../../..//src/sche/application/blender/QueryRewrite.h:
+
+../../../..//src/sche/application/blender/DocumentRewrite.h:
+
+../../../..//src/sche/application/detail/rf/ResultFormat.h:
+
+../../../..//src/sche/application/detail/detail.h:
+
+../../../..//src/sche/application/detail/rf/ResultFormat.h:
+
+../../../..//src/secore/search/SearchResult.h:
+
+../../../..//src/secore/search/QueryParameter.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+../../../..//src/common/common.h:
+
+../../../..//src/util/vsa/IVSAContainer.h:
+
+../../../..//src/util/vsa/VSAContainer.h:
+
+../../../..//src/util/vsa/VSAData.h:
+
+../../../..//src/util/vsa/IVSAData.h:
+
+../../../..//src/sche/application/detail/rf/ResultFormatFactory.h:
+
+../../../..//src/secore/search/Ors.h:
+
+../../../..//src/secore/search/IOrs.h:
+
+../../../..//src/secore/utility/HashMap.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+../../../..//src/secore/search/QueryParameter.h:
+
+../../../..//src/secore/search/SearchResultSerializer.h:
+
+../../../..//src/secore/search/SearchResult.h:
+
+../../../..//src/secore/search/QueryParameter.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/MemPool.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+../../../..//src/secore/search/Statistic.h:
+
+../../../..//src/secore/utility/Svector.h:
+
+../../../..//src/sche/Session.h:
+
+../../../..//src/sche/Query.h:
+
+../../../..//src/sche/application/blender/MemPoolFactory.h:
+
+../../../..//src/sche/application/blender/blender.h:
+
+../../../..//include/simon/simonISearchApi.h:
+
+../../../..//src/clustermap/CMClient.h:
+
+../../../..//src/clustermap/DGramClient.h:
+
+../../../..//src/clustermap/DGramCommon.h:
+
+../../../..//src/clustermap/CMTree.h:
+
+../../../..//src/clustermap/DGramServer.h:
+
+../../../..//src/clustermap/CMWatchPoint.h:
+
+../../../..//src/clustermap/CMClientInterface.h:
+
+../../../..//src/secore/dispense/GroupDispenser.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/Svector.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispatcher/MsgRecord.h:
+
+../../../..//src/secore/basis/GlobalDef.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/HashMap.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/utility/Svector.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispatcher/DAUMsg.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispatcher/Logger.h:
+
+../../../..//include/util/Log.h:
+
+../../../..//src/secore/dispense/GroupDispenserFactory.h:
+
+../../../..//src/secore/dispense/P4PGroupDispenser.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/dispense/GroupDispenser.h:
+
+../../../..//src/secore/dispense/DefaultGroupDispenser.h:
+
+../../../..//src/secore/dispense/GroupDispenser.h:
+
+../../../..//src/secore/utility/MemPool.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/config/AreaInfo.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/SegmentReader.h:
+
+/home/lhfcws/ISEARCH/code/imatch2_cn_4_2_1_new/src/secore/update/IndexReader.h:
+
+../../../..//src/sche/application/detail/rf/ResultFormatFactory.h:
+
+../../../..//src/sche/application/detail/detail.h:
+
+../../../..//src/sche/application/searcher/searcher.h:
+
+../../../..//src/clustermap/CMNode.h:
+
+../../../..//src/sort/IBaseSort.h:
+
+../../../..//src/secore/search/Ors.h:
+
+../../../..//src/secore/search/QueryParameter.h:
+
+../../../..//src/secore/search/SearchResult.h:
+
+../../../..//src/secore/search/SearchResultSerializer.h:
+
+../../../..//src/util/vsa/VSAContainer.h:
+
+/home/lhfcws/ISEARCH//opt/anet/include/anet/tcpconnection.h:
+
+../../../..//src/util/configure.h:
+
+/usr/include/semaphore.h:
+
+/usr/include/bits/semaphore.h:

@@ -1,0 +1,444 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ACLOCAL	./Makefile	/^ACLOCAL = ${SHELL} \/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/config\/missing --run aclocal-1.9$/;"	m
+ACLOCAL_M4	./Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMDEP_FALSE	./Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_TRUE	./Makefile	/^AMDEP_TRUE = $/;"	m
+AMTAR	./Makefile	/^AMTAR = ${SHELL} \/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/config\/missing --run tar$/;"	m
+APACHE_ROOT	./Makefile	/^APACHE_ROOT = $/;"	m
+AP_SRC_BUILD_POST	./Makefile	/^AP_SRC_BUILD_POST = $/;"	m
+AP_SRC_BUILD_PRE	./Makefile	/^AP_SRC_BUILD_PRE =  simon$/;"	m
+AR	./Makefile	/^AR = ar$/;"	m
+AUTOCONF	./Makefile	/^AUTOCONF = ${SHELL} \/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/config\/missing --run autoconf$/;"	m
+AUTOHEADER	./Makefile	/^AUTOHEADER = ${SHELL} \/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/config\/missing --run autoheader$/;"	m
+AUTOMAKE	./Makefile	/^AUTOMAKE = ${SHELL} \/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/config\/missing --run automake-1.9$/;"	m
+AWK	./Makefile	/^AWK = gawk$/;"	m
+BMSCOMMCENTER_H	./BMSCommCenter.h	2;"	d
+BMSCommCenter	./BMSCommCenter.cpp	/^BMSCommCenter::BMSCommCenter () {$/;"	f	class:BMSCommCenter
+BMSCommCenter	./BMSCommCenter.h	/^class BMSCommCenter {$/;"	c
+BMSHANDLER_H	./v1/BMSHandler.h	2;"	d
+BMSHandler	./v1/BMSHandler.cpp	/^BMSHandler::BMSHandler() {$/;"	f	class:BMSHandler
+BMSHandler	./v1/BMSHandler.h	/^class BMSHandler {$/;"	c
+BMSQUERYQUEUE_H	./BMSQueryQueue.h	2;"	d
+BMSQUERYREWRITE_H	./BMSQueryRewrite.h	2;"	d
+BMSQUERYREWRITE_H	./v1/BMSQueryRewrite.h	2;"	d
+BMSQueryQueue	./BMSQueryQueue.h	/^class BMSQueryQueue {$/;"	c
+BMSQueryRewrite	./BMSQueryRewrite.cpp	/^BMSQueryRewrite::BMSQueryRewrite() {$/;"	f	class:BMSQueryRewrite
+BMSQueryRewrite	./BMSQueryRewrite.h	/^class BMSQueryRewrite{$/;"	c
+BMSQueryRewrite	./v1/BMSQueryRewrite.cpp	/^BMSQueryRewrite::BMSQueryRewrite() {$/;"	f	class:BMSQueryRewrite
+BMSQueryRewrite	./v1/BMSQueryRewrite.h	/^class BMSQueryRewrite{$/;"	c
+BMSSERVER_H	./BMSServer.h	2;"	d
+BMSServer	./BMSServer.cpp	/^BMSServer::BMSServer() {$/;"	f	class:BMSServer
+BMSServer	./BMSServer.h	/^class BMSServer {$/;"	c
+BMSWORKERFACTORY_HPP	./BMSWorkerFactory.h	2;"	d
+BMSWORKER_H	./BMSWorker.h	2;"	d
+BMSWorker	./BMSWorker.cpp	/^BMSWorker::BMSWorker() {$/;"	f	class:BMSWorker
+BMSWorker	./BMSWorker.h	/^class BMSWorker {$/;"	c
+BMSWorkerFactory	./BMSWorkerFactory.h	/^        BMSWorkerFactory(){}$/;"	f	class:BMSWorkerFactory
+BMSWorkerFactory	./BMSWorkerFactory.h	/^class BMSWorkerFactory {$/;"	c
+BMS_BEGIN	./BMS.h	41;"	d
+BMS_BEGIN	./v1/BMS.h	41;"	d
+BMS_DEPENDENCIES	./Makefile	/^BMS_DEPENDENCIES = $(top_srcdir)\/src\/clustermap\/libclustermap.la \\$/;"	m
+BMS_END	./BMS.h	42;"	d
+BMS_END	./v1/BMS.h	42;"	d
+BMS_H	./BMS.h	2;"	d
+BMS_H	./v1/BMS.h	2;"	d
+BMS_LDADD	./Makefile	/^BMS_LDADD = -lanet \\$/;"	m
+BMS_OBJECTS	./Makefile	/^BMS_OBJECTS = $(am_BMS_OBJECTS)$/;"	m
+BMS_SOURCES	./Makefile	/^BMS_SOURCES = BMS.cpp BMSServer.cpp BMSCommCenter.cpp BMSQueryRewrite.cpp BMSWorker.cpp BMSWorkerFactory.cpp BMSQueryQueue.cpp CLParser.cpp$/;"	m
+BMS_VERSION	./BMS.h	46;"	d
+BMS_VERSION	./v1/BMS.h	46;"	d
+BMS_param_t	./BMSWorker.h	/^struct BMS_param_t {$/;"	s
+BMS_param_t	./v1/BMSHandler.h	/^struct BMS_param_t {$/;"	s
+CC	./Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	./Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CFLAGS	./Makefile	/^CFLAGS = -g -O0 -ggdb$/;"	m
+CLPARSER_H	./CLParser.h	2;"	d
+CLP_BEGIN	./CLParser.h	8;"	d
+CLP_END	./CLParser.h	9;"	d
+CLParser	./CLParser.h	/^    CLParser() {$/;"	f	class:CLParser
+CLParser	./CLParser.h	/^class CLParser {$/;"	c
+COMMUNICATION_H	./v1/communication.h	2;"	d
+CONFIG_CLEAN_FILES	./Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_HEADER	./Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	./Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	./Makefile	/^CPPFLAGS = -D_FILE_OFFSET_BITS=64 -DSHMEM -fPIC -I. -I\/home\/lhfcws\/ISEARCH\/\/opt\/protobuf\/include -I\/home\/lhfcws\/ISEARCH\/code\/imatch2cn_plugin\/prebuild\/processDocMulti\/src -I\/home\/lhfcws\/ISEARCH\/code\/imatch2cn_plugin\/prebuild\/processDocMulti\/include -I\/home\/lhfcws\/ISEARCH\/\/opt\/WangWangOnline\/include -I\/home\/lhfcws\/ISEARCH\/\/opt\/WangWangOnline\/include\/wangwang_online -I\/home\/lhfcws\/ISEARCH\/\/opt\/bws\/\/include -I\/home\/lhfcws\/ISEARCH\/\/opt\/mxml\/include -I\/home\/lhfcws\/ISEARCH\/\/opt\/pool\/include -I\/home\/lhfcws\/ISEARCH\/\/opt\/anet\/include -I\/home\/lhfcws\/ISEARCH\/\/opt\/alog\/include -I\/home\/lhfcws\/ISEARCH\/\/opt\/lzo\/include\/lzo -I\/home\/lhfcws\/ISEARCH\/\/opt\/zlib\/include  -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/analysis -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/basis -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/build -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/config -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/dictionary -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/dictionary\/nlprocess -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/document -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/search -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/store -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/update -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/online -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/utility -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/dispense -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore\/dispatcher -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src\/secore -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/include -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/include\/sort -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/src -I\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new -DSIMON -DNDEBUG$/;"	m
+CTAGS	./Makefile	/^CTAGS = ctags$/;"	m
+CXX	./Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	./Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	./Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	./Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	./Makefile	/^CXXFLAGS = -g -O0 -ggdb$/;"	m
+CXXLD	./Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	./Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX --mode=link $(CXXLD) $(AM_CXXFLAGS) \\$/;"	m
+CYGPATH_W	./Makefile	/^CYGPATH_W = echo$/;"	m
+Communication	./v1/communication.cpp	/^Communication::Communication () {$/;"	f	class:Communication
+Communication	./v1/communication.cpp	/^Communication::Communication (clustermap::CMISNode* node_) {$/;"	f	class:Communication
+Communication	./v1/communication.h	/^class Communication {$/;"	c
+DEFAULT_CLUSTERNAME	./BMS.h	/^static const char* DEFAULT_CLUSTERNAME = "s_0_0";$/;"	v
+DEFAULT_CLUSTERNAME	./v1/BMS.h	/^static const char* DEFAULT_CLUSTERNAME = "s_0_0";$/;"	v
+DEFAULT_INCLUDES	./Makefile	/^DEFAULT_INCLUDES = -I. -I$(srcdir) -I$(top_builddir)$/;"	m
+DEFAULT_OUTPUT_FORMAT	./BMSWorker.h	/^static const char* DEFAULT_OUTPUT_FORMAT = "xml";$/;"	v
+DEFAULT_OUTPUT_FORMAT	./v1/BMSHandler.h	/^static const char* DEFAULT_OUTPUT_FORMAT = "xml";$/;"	v
+DEFS	./Makefile	/^DEFS = -DHAVE_CONFIG_H $(MACRO)$/;"	m
+DEPDIR	./Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	./Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	./Makefile	/^DIST_COMMON = $(include_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	./Makefile	/^DIST_SOURCES = $(BMS_SOURCES)$/;"	m
+ECHO	./Makefile	/^ECHO = echo$/;"	m
+ECHO_C	./Makefile	/^ECHO_C = $/;"	m
+ECHO_N	./Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	./Makefile	/^ECHO_T = $/;"	m
+EGREP	./Makefile	/^EGREP = grep -E$/;"	m
+ETAGS	./Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	./Makefile	/^EXEEXT = $/;"	m
+F77	./Makefile	/^F77 = g77$/;"	m
+FFLAGS	./Makefile	/^FFLAGS = -g -O2$/;"	m
+FROM_UNIQ_POS	./BMSWorker.h	14;"	d
+FROM_UNIQ_POS	./v1/BMSHandler.h	13;"	d
+HEADERS	./Makefile	/^HEADERS = $(include_HEADERS)$/;"	m
+HOSTNAME	./Makefile	/^HOSTNAME = adtest1.bja.tbsite.net$/;"	m
+INCLUDES	./Makefile	/^INCLUDES = -I$(rootdir)\/include -I$(rootdir)\/src -I$(rootdir)\/src\/sche\/application\/blender\/ -I$(rootdir)\/src\/sche\/ \\$/;"	m
+INSTALL	./Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	./Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	./Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	./Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	./Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	./Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+IS_UNIQ_POS	./BMSWorker.h	12;"	d
+IS_UNIQ_POS	./v1/BMSHandler.h	11;"	d
+InputProtocol	./BMS.h	/^    InputProtocol():type(clustermap::self), ip(NULL), port(0), protocol(clustermap::tcp), orig(NULL){}$/;"	f	struct:InputProtocol
+InputProtocol	./BMS.h	/^struct InputProtocol {$/;"	s
+InputProtocol	./v1/BMS.h	/^    InputProtocol():type(clustermap::self), ip(NULL), port(0), protocol(clustermap::tcp), orig(NULL){}$/;"	f	struct:InputProtocol
+InputProtocol	./v1/BMS.h	/^struct InputProtocol {$/;"	s
+LDFLAGS	./Makefile	/^LDFLAGS = -L\/home\/lhfcws\/ISEARCH\/\/opt\/protobuf\/lib -L\/home\/lhfcws\/ISEARCH\/code\/imatch2cn_plugin\/prebuild\/processDocMulti\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/WangWangOnline\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/bws\/\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/mxml\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/pool\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/anet\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/alog\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/lzo\/lib -L\/home\/lhfcws\/ISEARCH\/\/opt\/zlib\/lib  -L\/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/lib$/;"	m
+LIBOBJS	./Makefile	/^LIBOBJS = $/;"	m
+LIBS	./Makefile	/^LIBS = -lSimonISearch -lsimon -lBasicsSubset -lutil -lwangwang_online -lmxml -lanet -lalog -llzo2 -lz -lpthread  -lrt$/;"	m
+LIBTOOL	./Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIGHTKEYDELIM	./BMSWorker.h	/^static const char LIGHTKEYDELIM = ',';$/;"	v
+LIGHTKEYDELIM	./v1/BMSHandler.h	/^static const char LIGHTKEYDELIM = ',';$/;"	v
+LN_S	./Makefile	/^LN_S = ln -s$/;"	m
+LTCXXCOMPILE	./Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX --mode=compile $(CXX) $(DEFS) \\$/;"	m
+LTLIBOBJS	./Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	./Makefile	/^MAKEINFO = ${SHELL} \/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/config\/missing --run makeinfo$/;"	m
+NORMAL_INSTALL	./Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	./Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	./Makefile	/^OBJEXT = o$/;"	m
+Option	./CLParser.h	/^struct Option {$/;"	s
+PACKAGE	./Makefile	/^PACKAGE = imatch$/;"	m
+PACKAGE_BUGREPORT	./Makefile	/^PACKAGE_BUGREPORT = ali-p4p@list.alibaba-inc.com$/;"	m
+PACKAGE_NAME	./Makefile	/^PACKAGE_NAME = imatch$/;"	m
+PACKAGE_STRING	./Makefile	/^PACKAGE_STRING = imatch 4.2.1$/;"	m
+PACKAGE_TARNAME	./Makefile	/^PACKAGE_TARNAME = imatch$/;"	m
+PACKAGE_VERSION	./Makefile	/^PACKAGE_VERSION = 4.2.1$/;"	m
+PATH_SEPARATOR	./Makefile	/^PATH_SEPARATOR = :$/;"	m
+PHP_ROOT	./Makefile	/^PHP_ROOT = $/;"	m
+PLIST	./BMS.h	/^    PLIST():count(1), next(NULL) {$/;"	f	struct:PLIST
+PLIST	./BMS.h	/^struct PLIST {$/;"	s
+PLIST	./v1/BMS.h	/^    PLIST():count(1), next(NULL) {$/;"	f	struct:PLIST
+PLIST	./v1/BMS.h	/^struct PLIST {$/;"	s
+POST_INSTALL	./Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	./Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	./Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	./Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	./Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+QUERY_PREFIX	./BMS.h	44;"	d
+QUERY_PREFIX	./v1/BMS.h	44;"	d
+RANLIB	./Makefile	/^RANLIB = ranlib$/;"	m
+RELEASE	./Makefile	/^RELEASE = alpha$/;"	m
+SED	./Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	./Makefile	/^SET_MAKE = $/;"	m
+SHELL	./Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	./Makefile	/^SOURCES = $(BMS_SOURCES)$/;"	m
+STRIP	./Makefile	/^STRIP = strip$/;"	m
+ServerLocator	./BMSCommCenter.cpp	/^ServerLocator::ServerLocator(){$/;"	f	class:ServerLocator
+ServerLocator	./BMSCommCenter.h	/^class ServerLocator {$/;"	c
+ServerLocator	./v1/communication.cpp	/^ServerLocator::ServerLocator(){}$/;"	f	class:ServerLocator
+ServerLocator	./v1/communication.h	/^class ServerLocator {$/;"	c
+TO_UNIQ_POS	./BMSWorker.h	13;"	d
+TO_UNIQ_POS	./v1/BMSHandler.h	12;"	d
+USER	./Makefile	/^USER = lhfcws$/;"	m
+VALIDATION_BEGIN	./v1/validation.h	7;"	d
+VALIDATION_BEGIN	./validation.h	7;"	d
+VALIDATION_END	./v1/validation.h	8;"	d
+VALIDATION_END	./validation.h	8;"	d
+VALIDATION_H	./v1/validation.h	2;"	d
+VALIDATION_H	./validation.h	2;"	d
+VERSION	./Makefile	/^VERSION = 4.2.1$/;"	m
+WWWADDTOOLS	./Makefile	/^WWWADDTOOLS = $/;"	m
+_args	./BMSWorker.h	/^        BMS_param_t* _args;$/;"	m	class:BMSWorker
+_args	./CLParser.h	/^    std::map<std::string, int> _args;$/;"	m	class:CLParser
+_args	./v1/BMSHandler.h	/^        BMS_param_t* _args;$/;"	m	class:BMSHandler
+_center	./BMSCommCenter.cpp	/^BMSCommCenter* BMSCommCenter::_center = NULL;$/;"	m	class:BMSCommCenter	file:
+_center	./BMSCommCenter.h	/^        static BMSCommCenter* _center;$/;"	m	class:BMSCommCenter
+_conn	./v1/communication.h	/^        anet::Connection* _conn;$/;"	m	class:Communication
+_conn_pool	./BMSCommCenter.h	/^        SCHE::ConnectionPool* _conn_pool;$/;"	m	class:BMSCommCenter
+_conn_pool	./BMSServer.h	/^    SCHE::ConnectionPool *_conn_pool;$/;"	m	class:BMSServer
+_conn_pool	./v1/BMSHandler.h	/^        SCHE::ConnectionPool* _conn_pool;$/;"	m	class:BMSHandler
+_count	./BMSWorkerFactory.cpp	/^int BMSWorkerFactory::_count = 0;$/;"	m	class:BMSWorkerFactory	file:
+_count	./BMSWorkerFactory.h	/^        static int _count;$/;"	m	class:BMSWorkerFactory
+_factory	./BMSWorkerFactory.cpp	/^BMSWorkerFactory* BMSWorkerFactory::_factory = NULL;$/;"	m	class:BMSWorkerFactory	file:
+_factory	./BMSWorkerFactory.h	/^        static BMSWorkerFactory* _factory;$/;"	m	class:BMSWorkerFactory
+_locator	./BMSServer.h	/^    ServerLocator* _locator;$/;"	m	class:BMSServer
+_locator	./BMSWorker.h	/^        ServerLocator* _locator;$/;"	m	class:BMSWorker
+_locator	./v1/BMSHandler.h	/^        ServerLocator _locator;$/;"	m	class:BMSHandler
+_node	./BMSCommCenter.h	/^        PLIST* _node[clustermap::self + 1];$/;"	m	class:ServerLocator
+_node	./v1/communication.h	/^        PLIST* _node[clustermap::self + 1];$/;"	m	class:ServerLocator
+_node	./v1/communication.h	/^        clustermap::CMISNode* _node;$/;"	m	class:Communication
+_num	./BMSWorker.h	/^        int _start, _num;$/;"	m	class:BMSWorker
+_num	./v1/BMSHandler.h	/^        int _start, _num;$/;"	m	class:BMSHandler
+_optlist	./CLParser.h	/^    std::vector<Option> _optlist;$/;"	m	class:CLParser
+_pvec	./BMSWorker.h	/^        std::vector<anet::DefaultPacket> _pvec;$/;"	m	class:BMSWorker
+_pvec	./v1/BMSHandler.h	/^        std::vector<anet::DefaultPacket> _pvec;$/;"	m	class:BMSHandler
+_qrw	./BMSQueryRewrite.h	/^    BLENDER_INTERFACE::QueryRewrite* _qrw;$/;"	m	class:BMSQueryRewrite
+_qrw	./BMSWorker.h	/^        BMSQueryRewrite _qrw;$/;"	m	class:BMSWorker
+_qrw	./v1/BMSHandler.h	/^        BMSQueryRewrite _qrw;$/;"	m	class:BMSHandler
+_qrw	./v1/BMSQueryRewrite.h	/^    BLENDER_INTERFACE::QueryRewrite* _qrw;$/;"	m	class:BMSQueryRewrite
+_qry	./BMSWorker.h	/^        SCHE::Query _qry;$/;"	m	class:BMSWorker
+_qry	./v1/BMSHandler.h	/^        SCHE::Query _qry;$/;"	m	class:BMSHandler
+_queue	./BMSQueryQueue.cpp	/^std::deque<std::string> BMSQueryQueue::_queue;$/;"	m	class:BMSQueryQueue	file:
+_queue	./BMSQueryQueue.h	/^        static std::deque<std::string> _queue;$/;"	m	class:BMSQueryQueue
+_res_proc	./BMSWorker.h	/^        APP_BLENDER::ISearchResultProcessor _res_proc;$/;"	m	class:BMSWorker
+_res_proc	./v1/BMSHandler.h	/^        APP_BLENDER::ISearchResultProcessor _res_proc;$/;"	m	class:BMSHandler
+_rf_factory	./BMSWorker.h	/^        APP_DETAIL::ResultFormatFactory _rf_factory;$/;"	m	class:BMSWorker
+_rf_factory	./v1/BMSHandler.h	/^        APP_DETAIL::ResultFormatFactory _rf_factory;$/;"	m	class:BMSHandler
+_root	./BMSWorker.h	/^        config_t* _root;$/;"	m	class:BMSWorker
+_root	./v1/BMSHandler.h	/^        config_t* _root;$/;"	m	class:BMSHandler
+_sort	./BMSWorker.h	/^        SORT::BlenderSort _sort;$/;"	m	class:BMSWorker
+_sort	./v1/BMSHandler.h	/^        SORT::BlenderSort _sort;$/;"	m	class:BMSHandler
+_start	./BMSWorker.h	/^        int _start, _num;$/;"	m	class:BMSWorker
+_start	./v1/BMSHandler.h	/^        int _start, _num;$/;"	m	class:BMSHandler
+_transport	./BMSCommCenter.h	/^        anet::Transport *_transport;$/;"	m	class:BMSCommCenter
+_transport	./BMSServer.h	/^    anet::Transport _transport;$/;"	m	class:BMSServer
+_transport	./v1/BMSHandler.h	/^        anet::Transport _transport;$/;"	m	class:BMSHandler
+_w_factory	./BMSServer.h	/^    BMSWorkerFactory *_w_factory;$/;"	m	class:BMSServer
+_worker_num	./BMSServer.h	/^    int _worker_num;$/;"	m	class:BMSServer
+_write_wrap	./BMSWorker.cpp	/^static inline uint32_t _write_wrap(query::CSearchResult & sr,$/;"	f	file:
+_write_wrap	./v1/BMSHandler.cpp	/^static inline uint32_t _write_wrap(query::CSearchResult & sr,$/;"	f	file:
+ac_ct_AR	./Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	./Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	./Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_F77	./Makefile	/^ac_ct_F77 = g77$/;"	m
+ac_ct_RANLIB	./Makefile	/^ac_ct_RANLIB = ranlib$/;"	m
+ac_ct_STRIP	./Makefile	/^ac_ct_STRIP = strip$/;"	m
+add_parameter	./CLParser.cpp	/^void CLParser::add_parameter(std::string short_opt, std::string long_opt, fun_t handler, int para_num) {$/;"	f	class:CLParser
+am_BMS_OBJECTS	./Makefile	/^am_BMS_OBJECTS = BMS.$(OBJEXT) BMSServer.$(OBJEXT) \\$/;"	m
+am__DEPENDENCIES_1	./Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__aclocal_m4_deps	./Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__cd	./Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	./Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	./Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__fastdepCC_FALSE	./Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_TRUE	./Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCXX_FALSE	./Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_TRUE	./Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__include	./Makefile	/^am__include = include$/;"	m
+am__installdirs	./Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(includedir)"$/;"	m
+am__leading_dot	./Makefile	/^am__leading_dot = .$/;"	m
+am__quote	./Makefile	/^am__quote = $/;"	m
+am__strip_dir	./Makefile	/^am__strip_dir = `echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	./Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	./Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	./Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	./Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+anetroot	./Makefile	/^anetroot = \/home\/lhfcws\/ISEARCH\/\/opt\/anet\/lib$/;"	m
+assignDetailerNSend	./v1/BMSHandler.cpp	/^ret_t BMSHandler::assignDetailerNSend(Communication* comm, char* buf, uint32_t len) {$/;"	f	class:BMSHandler
+binPROGRAMS_INSTALL	./Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+bin_PROGRAMS	./Makefile	/^bin_PROGRAMS = BMS$(EXEEXT)$/;"	m
+bindir	./Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bmsHandler	./v1/BMS.cpp	/^BMS::BMSHandler bmsHandler;$/;"	v
+build	./Makefile	/^build = x86_64-redhat-linux-gnu$/;"	m
+build_alias	./Makefile	/^build_alias = $/;"	m
+build_cpu	./Makefile	/^build_cpu = x86_64$/;"	m
+build_os	./Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	./Makefile	/^build_triplet = x86_64-redhat-linux-gnu$/;"	m
+build_vendor	./Makefile	/^build_vendor = redhat$/;"	m
+checkArgvCompletion	./v1/validation.h	/^bool checkArgvCompletion(char* query, char* searcher_protocol, char* detailer_protocol) {$/;"	f
+checkArgvCompletion	./validation.h	/^bool checkArgvCompletion(char* query, char* searcher_protocol, char* detailer_protocol) {$/;"	f
+checkIP	./v1/validation.h	/^bool checkIP(char* ip_addr) {$/;"	f
+checkIP	./validation.h	/^bool checkIP(char* ip_addr) {$/;"	f
+checkInputProtocol	./v1/validation.h	/^bool checkInputProtocol(const BMS::InputProtocol& iprtcl_) {$/;"	f
+checkInputProtocol	./validation.h	/^bool checkInputProtocol(const BMS::InputProtocol& iprtcl_) {$/;"	f
+conn_queue_limit	./BMSCommCenter.h	/^const uint32_t conn_queue_limit = 500;$/;"	v
+conn_queue_limit	./v1/communication.h	/^const uint32_t conn_queue_limit = 500;$/;"	v
+conn_queue_timeout	./BMSCommCenter.h	/^const uint32_t conn_queue_timeout = 400;$/;"	v
+conn_queue_timeout	./v1/communication.h	/^const uint32_t conn_queue_timeout = 400;$/;"	v
+count	./BMS.h	/^    int count;$/;"	m	struct:PLIST
+count	./BMSQueryQueue.cpp	/^sem_t BMSQueryQueue::count;$/;"	m	class:BMSQueryQueue	file:
+count	./BMSQueryQueue.h	/^        static sem_t count;$/;"	m	class:BMSQueryQueue
+count	./v1/BMS.h	/^    int count;$/;"	m	struct:PLIST
+datadir	./Makefile	/^datadir = ${prefix}\/share$/;"	m
+depcomp	./Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/config\/depcomp$/;"	m
+deserialPhase1Return	./BMSWorker.cpp	/^ret_t BMSWorker::deserialPhase1Return(MemPool* heap, query::SClusterData ** & datas, uint32_t &nDocsSearch, uint32_t &nDocsFound, uint32_t &nDocsRestrict) {$/;"	f	class:BMSWorker
+deserialPhase1Return	./v1/BMSHandler.cpp	/^ret_t BMSHandler::deserialPhase1Return(MemPool* heap, query::SClusterData ** & datas, uint32_t &nDocsSearch, uint32_t &nDocsFound, uint32_t &nDocsRestrict) {$/;"	f	class:BMSHandler
+destroy	./BMSCommCenter.cpp	/^void BMSCommCenter::destroy() {$/;"	f	class:BMSCommCenter
+destroy	./BMSQueryQueue.cpp	/^void BMSQueryQueue::destroy() {$/;"	f	class:BMSQueryQueue
+destroy	./BMSWorkerFactory.cpp	/^void BMSWorkerFactory::destroy() {$/;"	f	class:BMSWorkerFactory
+destroyWorker	./BMSWorkerFactory.cpp	/^void BMSWorkerFactory::destroyWorker(BMSWorker* &worker) {$/;"	f	class:BMSWorkerFactory
+docdir	./Makefile	/^docdir = NONE\/doc$/;"	m
+exec_prefix	./Makefile	/^exec_prefix = ${prefix}$/;"	m
+find	./CLParser.h	/^inline bool find(const std::vector<Option>& optlist, const std::string& opt, Option& result) {$/;"	f
+fn	./CLParser.h	/^    fun_t fn;$/;"	m	struct:Option
+formatInputProtocol	./v1/validation.h	/^ret_t formatInputProtocol(char type_, char* orig_, BMS::InputProtocol& iprtcl) {$/;"	f
+formatInputProtocol	./validation.h	/^ret_t formatInputProtocol(char type_, char* orig_, InputProtocol& iprtcl) {$/;"	f
+fun_t	./CLParser.h	/^typedef void (*fun_t)(const std::string&);$/;"	t
+genResponseData	./BMSWorker.cpp	/^ret_t BMSWorker::genResponseData($/;"	f	class:BMSWorker
+genResponseData	./v1/BMSHandler.cpp	/^ret_t BMSHandler::genResponseData($/;"	f	class:BMSHandler
+getInstance	./BMSCommCenter.cpp	/^    BMSCommCenter* BMSCommCenter::getInstance() {$/;"	f	class:BMSCommCenter
+getInstance	./BMSQueryQueue.cpp	/^BMSQueryQueue* BMSQueryQueue::getInstance() {$/;"	f	class:BMSQueryQueue
+getInstance	./BMSWorkerFactory.cpp	/^BMSWorkerFactory* BMSWorkerFactory::getInstance() {$/;"	f	class:BMSWorkerFactory
+getNodes	./BMSCommCenter.cpp	/^PLIST* ServerLocator::getNodes(clustermap::enodetype role_) {$/;"	f	class:ServerLocator
+getNodes	./v1/communication.cpp	/^PLIST* ServerLocator::getNodes(clustermap::enodetype role_) {$/;"	f	class:ServerLocator
+getWorkerNum	./BMSWorkerFactory.cpp	/^int BMSWorkerFactory::getWorkerNum() const {$/;"	f	class:BMSWorkerFactory
+get_a_query	./v1/BMS.cpp	/^void get_a_query(const char* filename) {$/;"	f
+handleNewRequest	./BMSWorker.cpp	/^ret_t BMSWorker::handleNewRequest(char* query) {$/;"	f	class:BMSWorker
+handleNewRequest	./v1/BMSHandler.cpp	/^    ret_t BMSHandler::handleNewRequest(char* query) {$/;"	f	class:BMSHandler
+handlePhase1Return	./BMSWorker.cpp	/^ret_t BMSWorker::handlePhase1Return() {$/;"	f	class:BMSWorker
+handlePhase1Return	./v1/BMSHandler.cpp	/^ret_t BMSHandler::handlePhase1Return() {$/;"	f	class:BMSHandler
+handlePhase2Return	./BMSWorker.cpp	/^ret_t BMSWorker::handlePhase2Return() {$/;"	f	class:BMSWorker
+handlePhase2Return	./v1/BMSHandler.cpp	/^ret_t BMSHandler::handlePhase2Return() {$/;"	f	class:BMSHandler
+heap	./BMSWorker.h	/^    MemPool* heap;$/;"	m	struct:BMS_param_t
+heap	./v1/BMSHandler.h	/^    MemPool* heap;$/;"	m	struct:BMS_param_t
+help	./BMS.cpp	/^void help(const std::string& null_para) {$/;"	f
+help	./v1/BMS.cpp	/^void help() {$/;"	f
+host	./Makefile	/^host = x86_64-redhat-linux-gnu$/;"	m
+host_alias	./Makefile	/^host_alias = $/;"	m
+host_cpu	./Makefile	/^host_cpu = x86_64$/;"	m
+host_os	./Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	./Makefile	/^host_triplet = x86_64-redhat-linux-gnu$/;"	m
+host_vendor	./Makefile	/^host_vendor = redhat$/;"	m
+includeHEADERS_INSTALL	./Makefile	/^includeHEADERS_INSTALL = $(INSTALL_HEADER)$/;"	m
+include_HEADERS	./Makefile	/^include_HEADERS = BMS.h BMSServer.h BMSQueryRewrite.h BMSQueryQueue.h BMSWorker.h BMSWorkerFactory.h BMSCommCenter.h validation.h CLParser.h$/;"	m
+includedir	./Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	./Makefile	/^infodir = ${prefix}\/info$/;"	m
+init	./BMSCommCenter.cpp	/^void BMSCommCenter::init() {$/;"	f	class:BMSCommCenter
+init	./BMSQueryQueue.cpp	/^void BMSQueryQueue::init() {$/;"	f	class:BMSQueryQueue
+init	./BMSQueryRewrite.cpp	/^ret_t BMSQueryRewrite::init(const char* conf) {$/;"	f	class:BMSQueryRewrite
+init	./BMSServer.cpp	/^void BMSServer::init() {$/;"	f	class:BMSServer
+init	./BMSWorker.cpp	/^ret_t BMSWorker::init() {$/;"	f	class:BMSWorker
+init	./BMSWorkerFactory.cpp	/^void BMSWorkerFactory::init() {$/;"	f	class:BMSWorkerFactory
+init	./v1/BMSHandler.cpp	/^ret_t BMSHandler::init() {$/;"	f	class:BMSHandler
+init	./v1/BMSQueryRewrite.cpp	/^ret_t BMSQueryRewrite::init(const char* conf) {$/;"	f	class:BMSQueryRewrite
+input_query	./v1/BMS.cpp	/^char* input_query;$/;"	v
+install_sh	./Makefile	/^install_sh = \/home\/lhfcws\/ISEARCH\/code\/imatch2_cn_4_2_1_new\/config\/install-sh$/;"	m
+install_sh_DATA	./Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	./Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	./Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+ip	./BMS.h	/^    char* ip;$/;"	m	struct:InputProtocol
+ip	./v1/BMS.h	/^    char* ip;$/;"	m	struct:InputProtocol
+isearchlib	./Makefile	/^isearchlib = -lsecore$/;"	m
+keplerroot	./Makefile	/^keplerroot = $/;"	m
+libdir	./Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	./Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+load_detailer	./BMS.cpp	/^void load_detailer(const std::string& detailer_list) {$/;"	f
+load_queryfile	./BMS.cpp	/^void load_queryfile(const std::string& filename) {$/;"	f
+load_searcher	./BMS.cpp	/^void load_searcher(const std::string& searcher_list) {$/;"	f
+localstatedir	./Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+logfiledir	./Makefile	/^logfiledir = NONE\/logs$/;"	m
+logtime	./BMS.cpp	/^void logtime() {$/;"	f
+logtime	./v1/BMS.cpp	/^void logtime() {$/;"	f
+long_opt	./CLParser.h	/^    std::string long_opt;$/;"	m	struct:Option
+lzoroot	./Makefile	/^lzoroot = \/home\/lhfcws\/ISEARCH\/\/opt\/lzo\/lib$/;"	m
+main	./BMS.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+main	./v1/BMS.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+makeConnection	./BMSCommCenter.cpp	/^anet::Connection* BMSCommCenter::makeConnection (clustermap::CMISNode* node_) {$/;"	f	class:BMSCommCenter
+makeConnection	./v1/communication.cpp	/^anet::Connection* Communication::makeConnection (SCHE::ConnectionPool* conn_pool) {$/;"	f	class:Communication
+makePacket	./BMSCommCenter.cpp	/^anet::DefaultPacket* BMSCommCenter::makePacket (clustermap::CMISNode* node_, char* query_) {$/;"	f	class:BMSCommCenter
+makePacket	./v1/communication.cpp	/^anet::DefaultPacket* Communication::makePacket (char* query_) {$/;"	f	class:Communication
+makeWorker	./BMSWorkerFactory.cpp	/^BMSWorker* BMSWorkerFactory::makeWorker() {$/;"	f	class:BMSWorkerFactory
+mandir	./Makefile	/^mandir = ${prefix}\/man$/;"	m
+mkdir_p	./Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkinstalldirs	./Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mxmlroot	./Makefile	/^mxmlroot = \/home\/lhfcws\/ISEARCH\/\/opt\/mxml\/lib$/;"	m
+next	./BMS.h	/^    struct PLIST* next;$/;"	m	struct:PLIST	typeref:struct:PLIST::PLIST
+next	./v1/BMS.h	/^    struct PLIST* next;$/;"	m	struct:PLIST	typeref:struct:PLIST::PLIST
+node	./BMS.h	/^    clustermap::CMISNode* node;$/;"	m	struct:PLIST
+node	./v1/BMS.h	/^    clustermap::CMISNode* node;$/;"	m	struct:PLIST
+oldincludedir	./Makefile	/^oldincludedir = \/usr\/include$/;"	m
+orig	./BMS.h	/^    char* orig;$/;"	m	struct:InputProtocol
+orig	./v1/BMS.h	/^    char* orig;$/;"	m	struct:InputProtocol
+p4p_quality	./Makefile	/^p4p_quality = $/;"	m
+pSearchResult	./BMSWorker.h	/^    query::CSearchResult* pSearchResult;$/;"	m	struct:BMS_param_t
+pSearchResult	./v1/BMSHandler.h	/^    query::CSearchResult* pSearchResult;$/;"	m	struct:BMS_param_t
+para_num	./CLParser.h	/^    int para_num;$/;"	m	struct:Option
+param	./BMSWorker.h	/^    query::CQueryParameter* param;$/;"	m	struct:BMS_param_t
+param	./v1/BMSHandler.h	/^    query::CQueryParameter* param;$/;"	m	struct:BMS_param_t
+parse	./CLParser.cpp	/^void CLParser::parse(int argc, char* argv[]) {$/;"	f	class:CLParser
+pkgdatadir	./Makefile	/^pkgdatadir = $(datadir)\/imatch$/;"	m
+pkgincludedir	./Makefile	/^pkgincludedir = $(includedir)\/imatch$/;"	m
+pkglibdir	./Makefile	/^pkglibdir = $(libdir)\/imatch$/;"	m
+poolroot	./Makefile	/^poolroot = \/home\/lhfcws\/ISEARCH\/\/opt\/pool\/lib$/;"	m
+pop	./BMSQueryQueue.cpp	/^void BMSQueryQueue::pop(char* &query) {$/;"	f	class:BMSQueryQueue
+port	./BMS.h	/^    int port;$/;"	m	struct:InputProtocol
+port	./v1/BMS.h	/^    int port;$/;"	m	struct:InputProtocol
+pos	./v1/BMSHandler.h	/^        int32_t** pos;$/;"	m	class:BMSHandler
+prefix	./Makefile	/^prefix = \/usr\/local$/;"	m
+processArgv	./v1/BMS.cpp	/^void processArgv(int argc, char*argv[]) {$/;"	f
+processPhase2Result	./BMSWorker.cpp	/^ret_t BMSWorker::processPhase2Result(query::CSearchResult & sr, $/;"	f	class:BMSWorker
+processPhase2Result	./v1/BMSHandler.cpp	/^ret_t BMSHandler::processPhase2Result(query::CSearchResult & sr, $/;"	f	class:BMSHandler
+program_transform_name	./Makefile	/^program_transform_name = s,x,x,$/;"	m
+protobufroot	./Makefile	/^protobufroot = \/home\/lhfcws\/ISEARCH\/\/opt\/protobuf\/lib$/;"	m
+protocol	./BMS.h	/^    clustermap::eprotocol protocol;     \/\/ "tcp", "http", "udp"$/;"	m	struct:InputProtocol
+protocol	./v1/BMS.h	/^    clustermap::eprotocol protocol;     \/\/ "tcp", "http", "udp"$/;"	m	struct:InputProtocol
+push	./BMSQueryQueue.cpp	/^void BMSQueryQueue::push(char* query) {$/;"	f	class:BMSQueryQueue
+readPacketFromSocket	./v1/communication.cpp	/^int Communication::readPacketFromSocket(anet::Socket* socket, anet::DefaultPacket* &packet) {$/;"	f	class:Communication
+recvQuery	./BMSServer.cpp	/^void BMSServer::recvQuery(char* query) {$/;"	f	class:BMSServer
+releaseVector	./BMSWorker.cpp	/^void releaseVector(std::vector<char *>& vec) {$/;"	f
+releaseVector	./v1/BMSHandler.cpp	/^void releaseVector(std::vector<char *>& vec) {$/;"	f
+response	./BMSWorker.cpp	/^void BMSWorker::response(char* res) {$/;"	f	class:BMSWorker
+response	./v1/BMSHandler.cpp	/^void BMSHandler::response(char* res) {$/;"	f	class:BMSHandler
+rewrite	./BMSQueryRewrite.cpp	/^int BMSQueryRewrite::rewrite(const char* query, const char* group_name_, std::vector<char *> &rpszResult) {$/;"	f	class:BMSQueryRewrite
+rewrite	./v1/BMSQueryRewrite.cpp	/^int BMSQueryRewrite::rewrite(const char* query, const char* group_name_, std::vector<char *> &rpszResult) {$/;"	f	class:BMSQueryRewrite
+rootdir	./Makefile	/^rootdir = ..\/..\/..\/..\/$/;"	m
+run	./BMSWorker.cpp	/^void BMSWorker::run() {$/;"	f	class:BMSWorker
+runWorker	./BMSServer.cpp	/^void* runWorker(void* args) {$/;"	f
+sbindir	./Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+self	./BMSQueryQueue.cpp	/^BMSQueryQueue* BMSQueryQueue::self = NULL;$/;"	m	class:BMSQueryQueue	file:
+self	./BMSQueryQueue.h	/^        static BMSQueryQueue* self;$/;"	m	class:BMSQueryQueue
+send	./BMSCommCenter.cpp	/^ret_t BMSCommCenter::send(clustermap::CMISNode* node, anet::DefaultPacket* packet, anet::DefaultPacket* &return_packet) {$/;"	f	class:BMSCommCenter
+sendPacket	./v1/communication.cpp	/^ret_t Communication::sendPacket (anet::DefaultPacket* &return_packet, anet::DefaultPacket* packet, anet::Connection* conn = NULL) {$/;"	f	class:Communication
+server	./BMS.cpp	/^BMS::BMSServer server;$/;"	v
+setCMNode	./BMSCommCenter.cpp	/^PLIST* ServerLocator::setCMNode(const InputProtocol& iprtcl_) {$/;"	f	class:ServerLocator
+setCMNode	./v1/communication.cpp	/^PLIST* ServerLocator::setCMNode(const InputProtocol& iprctl_) {$/;"	f	class:ServerLocator
+setNode	./v1/communication.cpp	/^void Communication::setNode (clustermap::CMISNode* node_) {$/;"	f	class:Communication
+setWorkerNum	./BMSServer.cpp	/^void BMSServer::setWorkerNum(int num) {$/;"	f	class:BMSServer
+set_worker_num	./BMS.cpp	/^void set_worker_num(const std::string& s_num) {$/;"	f
+sharedstatedir	./Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+short_opt	./CLParser.h	/^    std::string short_opt;$/;"	m	struct:Option
+special_lib	./Makefile	/^special_lib =  -lpool -lBWS -ldl -ldl -lprocessDoc -ldl -lspucat -lprotobuf$/;"	m
+srcdir	./Makefile	/^srcdir = .$/;"	m
+start	./BMSServer.cpp	/^void BMSServer::start() {$/;"	f	class:BMSServer
+streq	./v1/BMS.cpp	/^inline bool streq(char* s1, char* s2) {$/;"	f
+subdir	./Makefile	/^subdir = src\/sche\/application\/BMS$/;"	m
+sysconfdir	./Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	./Makefile	/^target_alias = $/;"	m
+tcpSendPacket	./v1/communication.cpp	/^anet::Packet* Communication::tcpSendPacket (anet::TCPConnection* tcp_conn, anet::DefaultPacket* packet) {$/;"	f	class:Communication
+top_builddir	./Makefile	/^top_builddir = ..\/..\/..\/..$/;"	m
+top_srcdir	./Makefile	/^top_srcdir = ..\/..\/..\/..$/;"	m
+transform	./Makefile	/^transform = $(program_transform_name)$/;"	m
+type	./BMS.h	/^    clustermap::enodetype type;$/;"	m	struct:InputProtocol
+type	./v1/BMS.h	/^    clustermap::enodetype type;$/;"	m	struct:InputProtocol
+usemlr	./Makefile	/^usemlr = $/;"	m
+usesimon	./Makefile	/^usesimon = yes$/;"	m
+wait	./BMSServer.cpp	/^void BMSServer::wait() {$/;"	f	class:BMSServer
+wordmap_includepath	./Makefile	/^wordmap_includepath = $/;"	m
+wordmap_ldpath	./Makefile	/^wordmap_ldpath = $/;"	m
+zlibroot	./Makefile	/^zlibroot = \/home\/lhfcws\/ISEARCH\/\/opt\/zlib\/lib$/;"	m
+~BMSCommCenter	./BMSCommCenter.cpp	/^BMSCommCenter::~BMSCommCenter () {$/;"	f	class:BMSCommCenter
+~BMSHandler	./v1/BMSHandler.cpp	/^BMSHandler::~BMSHandler() {$/;"	f	class:BMSHandler
+~BMSQueryQueue	./BMSQueryQueue.cpp	/^BMSQueryQueue::~BMSQueryQueue() {}$/;"	f	class:BMSQueryQueue
+~BMSQueryRewrite	./BMSQueryRewrite.cpp	/^BMSQueryRewrite::~BMSQueryRewrite() {}$/;"	f	class:BMSQueryRewrite
+~BMSQueryRewrite	./v1/BMSQueryRewrite.cpp	/^BMSQueryRewrite::~BMSQueryRewrite() {}$/;"	f	class:BMSQueryRewrite
+~BMSServer	./BMSServer.cpp	/^BMSServer::~BMSServer() {$/;"	f	class:BMSServer
+~BMSWorker	./BMSWorker.cpp	/^BMSWorker::~BMSWorker() {$/;"	f	class:BMSWorker
+~BMSWorkerFactory	./BMSWorkerFactory.cpp	/^BMSWorkerFactory::~BMSWorkerFactory(){$/;"	f	class:BMSWorkerFactory
+~CLParser	./CLParser.h	/^    ~CLParser() {$/;"	f	class:CLParser
+~Communication	./v1/communication.cpp	/^    Communication::~Communication () {$/;"	f	class:Communication
+~PLIST	./BMS.h	/^    ~PLIST() {$/;"	f	struct:PLIST
+~PLIST	./v1/BMS.h	/^    ~PLIST() {$/;"	f	struct:PLIST
+~ServerLocator	./BMSCommCenter.cpp	/^ServerLocator::~ServerLocator(){$/;"	f	class:ServerLocator
+~ServerLocator	./v1/communication.cpp	/^ServerLocator::~ServerLocator(){$/;"	f	class:ServerLocator
